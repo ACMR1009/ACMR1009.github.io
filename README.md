@@ -1,2 +1,134 @@
-# ACMR1009.github.io
-My Personal Website
+<!DOCTYPE html>
+<html lang="en">
+<script src="scripts/button_func.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Cristina Munguía Romero | Resume</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- // Intro -->
+    <header id="about">
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="content-wrap header">
+        <img src="images/profile_pic.jpeg" alt="Ana Cristina Munguía Romero" class="profile-img column-narrow">
+        <div class="column-wide">
+        <h1>Ana Cristina Munguía Romero</h1>
+        <h2>Computer Science Student</h2>
+        <p>Howdy!</p>
+        <p>Allow me to introduce myself: I'm Ana, a 20-year-old mexican young woman aspiring to be an outstanding software engineer.</p>
+        <p>I consider myself a fast lerner and resourceful person. I am incredibly passionate of animation and musicals, whenever I get some free time, you can catch me enjoying cartoons, playing piano, writing short stories or simply laying in bed watching all four Toy Story films for the hundredth time.</p>
+        <p>Please feel free to contact me if you feel so moved!</p>
+        </div>
+        <button class="button download" onClick="downloadFile('assets/CV_Ana%20Cristina%20Mungu%C3%ADa%20Romero_090622%20(english).pdf', 'AnaCristinaCV.pdf')">Download CV</button></div>
+    </header>    
+    
+    <main>
+        <!-- // Work Experience -->
+        <section class="work" id="work">
+            <div class="content-wrap">
+            <h2>Notable Projects</h2>
+
+            <!-- Job Details: copy this whole block to add more jobs -->
+            <div class="column-narrow">
+            <h3>Traffic System Simulation</h3>
+            <p>Aug-Dec 2021</p>
+            </div>
+                
+            <div class="column-wide job-description">
+            <p>Simulation of a multiagent traffic system of two-street intersections based on smart stoplights reacting to vehicles and communicating with one another.</p>
+            </div>
+            
+            <div class="column-narrow">
+            <h3>Recruitments Management App</h3>
+            <p>Feb-Jun 2021</p>
+            </div>
+                
+            <div class="column-wide job-description">
+            <p>Design and development of a technological tool for following up on recruitment processes for the enterprise <a href="https://www.amdocs.com/" target="_blank">Amdocs</a> to provide users with clear information about a candidate's stage in the recruitment process and easy access to their progress history.</p>
+            </div>
+            <!-- end of Job Details block. -->
+            </div>   
+        </section>
+
+
+        <!-- // Education -->
+        <section class="education" id="education">
+            <div class="content-wrap">
+            <h2>Education</h2>
+
+            <!-- School details: copy this whole block to add more schools. -->
+            <h3>ITESM, 2019 - Present day</h3>
+            <p><b>Computer Science Student</b></p>
+            
+            <!-- Add as many paragraphs as you need. -->
+            <p>Currently enrolled in the 6th semester of the undergraduate program <i>Ingeniero en Tecnologías Computacionales ITC</i> (<a href="https://tec.mx/en/computer-science-and-information-technologies/bs-in-computer-science-and-technology" target="_blank">B.S. in Computer Science and Technology</a>) at ITESM Campus Guadalajara.</p>
+            <!-- End of school details. -->
+                
+            <!-- School details: copy this whole block to add more schools. -->
+            <h3>Certificates</h3>
+            <ul>
+                <li>Scrum Fundamentals Certified SFC, May 2022.</li>
+            </ul>
+            <p></p>
+            
+            <h3>Languages</h3>
+            <p><b><i>ENGLISH</i></b></p>
+            
+            <p>Fluently bilingual, highly proficient writing and communication skills. Translating and proofreading texts in this language is not an issue.</p>
+            <ul>
+                <li>TOEFL ITP (667 points), June 2019.</li>
+                <li>Pearson Edexcel Level 2 C1 (pass with Merit) certificate, November 2018.</li>
+                <li>Second language certificate – Centro de Idiomas del Tecnológico de Monterrey Campus Sinaloa, December 2013.</li>
+            </ul>
+            
+            <p><b><i>FRENCH</i></b></p>
+            
+            <p>Fluently bilingual, highly proficient writing skills. Translating and proofreading texts in this language is not an issue.</p>
+            <ul>
+                <li>DEFL B2 (76.50/100) certificate, December 2019.</li>
+                <li>DELF B1 (91.50/100) certificate, May 2019.</li>
+                <li>Second language certificate – Centro de Idiomas del Tecnológico de Monterrey Campus Sinaloa, December 2015.</li>
+            </ul>
+            <p></p>
+                
+            <h3>Programming Languages and Other Technologies</h3>
+            <ul>
+                <li>React and Carbon Design System, since 2022.</li>
+                <li>HTML and CSS, since 2021.</li>
+                <li>C#, since 2021.</li>
+                <li>C++, since 2019.</li>
+                <li>Python, since 2019.</li>
+                <li>JavaScript, since 2017.</li>
+            </ul>
+            </div>
+        </section>
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer id="contact">
+        <div class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
+        
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="contact-info">
+            <a href="mailto:anacristina.munguia@gmail.com">Email me!</a>
+            <a href="https://github.com/ACMR1009" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/ana-cristina-mungu%C3%ADa-romero-2618541b7/" target="_blank">LinkedIn</a>
+        </div>
+
+        <p>Copyright 2022 by Ana Cristina Munguía Romero</p>
+        </div>
+    </footer>
+</body>
+</html>
