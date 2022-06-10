@@ -1,0 +1,176 @@
+/*Global Syles
+-----------------------------------------------------*/
+/*The Box Model Fit*/
+html {
+    box-sizing: border-box;
+    background-color: #2B2D42;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: mediumvioletred;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 10px;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: auto;
+}
+
+.column-narrow{
+    width: 35%;
+    float: left;
+    padding-right: 30px;
+    min-height: 160px;
+}
+
+.column-wide{
+    width: 65%;
+    float: left;
+    min-height: 160px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.center {
+    float: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*Header & Footer Styles
+-----------------------------------------------------*/
+header, footer {
+    background: #2B2D42;
+    color: #EDF2F4;
+    margin: 0;
+}
+
+header {
+    position: relative;
+}
+
+.header {
+    padding-top: 100px;
+}
+
+.profile-img{
+    border-radius: 50%;
+    height: 420px;
+    width: auto;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+    color: #FFBDF7;
+}
+
+.button {
+    background: #EF233C;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: inline-block;
+    font-family: 'RocknRoll One', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: mediumvioletred;
+}
+
+.download:hover {
+    background-color: darkmagenta;
+    
+}
+
+/*Navigation
+-----------------------------------------------------*/
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Work Experience
+-----------------------------------------------------*/
+.work {
+    background: #EDF2F4;
+    padding-top: 40px;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+/*Education
+-----------------------------------------------------*/
+.education {
+    background: linear-gradient(rgba(141, 153, 174, 0.5), rgba(141, 153, 174, 0.3)), url(../images/clouds.png) no-repeat fixed;
+    background-size: cover;
+}
+
+.education p:nth-child(4) {
+    margin-bottom: 30px;
+}

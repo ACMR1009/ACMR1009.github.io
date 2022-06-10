@@ -1,0 +1,9 @@
+.style {
+    color: blue;
+}
+.name {
+    font-size: 20px;
+}
+.style.name {
+    background: green;
+}
